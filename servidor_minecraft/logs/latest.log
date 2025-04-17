@@ -68,3 +68,5 @@
 [22:49:11] [Server thread/INFO]: Exalias joined the game
 [22:49:11] [Server thread/INFO]: Exalias[/127.176.63.111:51337] logged in with entity id 1252 at ([Moon_Cell]-348.65958829409624, 95.875, -23.554473167692652)
 [22:53:40] [Server thread/INFO]: Exalias has made the advancement [Not Today, Thank You]
+[22:57:40] [Server thread/INFO]: Exalias issued server command: /tp Exalias -348.5 95 -23.5
+[22:57:40] [Server thread/INFO]: [Exalias: Teleported Exalias to -348.500000, 95.000000, -23.500000]
