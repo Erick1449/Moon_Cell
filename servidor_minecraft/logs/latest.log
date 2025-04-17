@@ -1,0 +1,813 @@
+[03:25:44] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[03:25:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[03:25:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:25:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[03:25:45] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - Geyser-Spigot (2.7.0-SNAPSHOT), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[03:25:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:25:50] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[03:25:50] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[03:25:51] [ServerMain/INFO]: No existing world data, creating new world
+[03:25:51] [ServerMain/INFO]: Loaded 1290 recipes
+[03:25:52] [ServerMain/INFO]: Loaded 1399 advancements
+[03:25:52] [Server thread/INFO]: Starting minecraft server version 1.21
+[03:25:52] [Server thread/INFO]: Loading properties
+[03:25:52] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[03:25:53] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:25:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:25:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:25:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[03:25:54] [Server thread/INFO]: Default game type: SURVIVAL
+[03:25:54] [Server thread/INFO]: Generating keypair
+[03:25:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:25:54] [Server thread/INFO]: Using epoll channel type
+[03:25:54] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:25:54] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[03:25:55] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[03:25:56] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[03:25:56] [Server thread/INFO]: [floodgate] Took 1,665ms to boot Floodgate
+[03:25:56] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[03:25:56] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[03:25:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[03:25:58] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[03:25:59] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[03:26:00] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[03:26:00] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[03:26:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:26:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:26:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:26:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:26:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:26:00] [Server thread/INFO]: Preparing level "Moon_Cell"
+[03:26:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:26:18] [Server thread/INFO]: Time elapsed: 7164 ms
+[03:26:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:26:20] [Server thread/INFO]: Time elapsed: 1572 ms
+[03:26:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:26:20] [Server thread/INFO]: Time elapsed: 516 ms
+[03:26:20] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[03:26:21] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[03:26:21] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[03:26:21] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[03:26:22] [Server thread/INFO]: [spark] Starting background profiler...
+[03:26:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:26:22] [Server thread/INFO]: [Geyser-Spigot] 
+[03:26:22] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b810 (git-master-91ca77d)
+[03:26:22] [Server thread/INFO]: [Geyser-Spigot] 
+[03:26:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:26:30] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2840
+[03:26:30] [Server thread/INFO]: [Geyser-Spigot] Done (7.509s)! Run /geyser help for help!
+[03:26:30] [Server thread/INFO]: Done preparing level "Moon_Cell" (29.565s)
+[03:26:30] [Server thread/INFO]: Running delayed init tasks
+[03:26:30] [Server thread/INFO]: Done (46.311s)! For help, type "help"
+[03:26:30] [Server thread/INFO]: Timings Reset
+[03:26:30] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[03:26:44] [User Authenticator #0/INFO]: UUID of player Exalias is cb6841b5-b095-3d3a-b557-b9d12b6b2bad
+[03:26:45] [Server thread/INFO]: Exalias joined the game
+[03:26:45] [Server thread/INFO]: Exalias[/127.176.63.111:55135] logged in with entity id 25 at ([Moon_Cell]6.5, 141.0, 81.5)
+[03:40:45] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username MalaHierba6026
+[03:40:45] [localSession-7-2/INFO]: [Geyser-Spigot] MalaHierba6026 (logged in as: MalaHierba6026) has connected to the Java server
+[03:40:45] [Server thread/INFO]: [floodgate] Floodgate player logged in as .MalaHierba6026 joined (UUID: 00000000-0000-0000-0009-01f2a7753d51)
+[03:40:45] [Server thread/INFO]: .MalaHierba6026 joined the game
+[03:40:45] [Server thread/INFO]: .MalaHierba6026[/127.0.0.1:0] logged in with entity id 2422 at ([Moon_Cell]17.5, 104.0, 70.5)
+[03:41:06] [Async Chat Thread - #0/INFO]: [Not Secure] <.MalaHierba6026> loco si se pudo
+[03:41:39] [Server thread/INFO]: .MalaHierba6026 was slain by Spider
+[03:42:36] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] MalaHierba6026 has disconnected from the Java server because of Bedrock client disconnected
+[03:42:36] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .MalaHierba6026 disconnected
+[03:42:36] [Server thread/INFO]: .MalaHierba6026 lost connection: Disconnected
+[03:42:36] [Server thread/INFO]: .MalaHierba6026 left the game
+[03:45:07] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username MalaHierba6026
+[03:45:07] [localSession-7-3/INFO]: [Geyser-Spigot] MalaHierba6026 (logged in as: MalaHierba6026) has connected to the Java server
+[03:45:07] [Server thread/INFO]: [floodgate] Floodgate player logged in as .MalaHierba6026 joined (UUID: 00000000-0000-0000-0009-01f2a7753d51)
+[03:45:07] [Server thread/INFO]: .MalaHierba6026 joined the game
+[03:45:07] [Server thread/INFO]: .MalaHierba6026[/127.0.0.1:0] logged in with entity id 2829 at ([Moon_Cell]14.471184, 118.0, 74.834526)
+[03:49:17] [Server thread/INFO]: .MalaHierba6026 has made the advancement [Stone Age]
+[03:51:09] [Server thread/INFO]: Exalias hit the ground too hard
+[03:52:19] [Server thread/INFO]: .MalaHierba6026 has made the advancement [Getting an Upgrade]
+[04:02:03] [Server thread/INFO]: .MalaHierba6026 was shot by Skeleton
+[04:02:13] [Server thread/INFO]: Exalias fell from a high place
+[04:03:09] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] MalaHierba6026 has disconnected from the Java server because of Bedrock client timed out
+[04:03:09] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .MalaHierba6026 disconnected
+[04:03:09] [Server thread/INFO]: .MalaHierba6026 lost connection: Disconnected
+[04:03:09] [Server thread/INFO]: .MalaHierba6026 left the game
+[04:07:51] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username MalaHierba6026
+[04:07:51] [localSession-7-4/INFO]: [Geyser-Spigot] MalaHierba6026 (logged in as: MalaHierba6026) has connected to the Java server
+[04:07:51] [User Authenticator #1/INFO]: UUID of player MalaHierba6026 is 56721797-cb63-3f6e-aabe-a024b433d0f2
+[04:07:51] [Server thread/INFO]: MalaHierba6026 joined the game
+[04:07:51] [Server thread/INFO]: MalaHierba6026[/127.0.0.1:0] logged in with entity id 6007 at ([Moon_Cell]22.5, 110.0, 74.5)
+[04:09:05] [Server thread/INFO]: Exalias drowned
+[04:13:44] [Server thread/INFO]: MalaHierba6026 has made the advancement [Monster Hunter]
+[04:18:33] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Taky4245
+[04:18:33] [localSession-7-1/INFO]: [Geyser-Spigot] Taky4245 (logged in as: Taky4245) has connected to the Java server
+[04:18:33] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Taky4245 joined (UUID: 00000000-0000-0000-0009-01f9483d367f)
+[04:18:33] [Server thread/INFO]: .Taky4245 joined the game
+[04:18:33] [Server thread/INFO]: .Taky4245[/127.0.0.1:0] logged in with entity id 7451 at ([Moon_Cell]18.5, 119.0, 79.5)
+[04:19:03] [Server thread/INFO]: Exalias has made the advancement [Monster Hunter]
+[04:22:15] [Server thread/INFO]: Exalias hit the ground too hard
+[04:22:48] [Server thread/INFO]: .Taky4245 was shot by Skeleton
+[04:23:26] [Server thread/INFO]: MalaHierba6026 was shot by Skeleton
+[04:25:12] [Server thread/INFO]: Exalias was impaled on a stalagmite
+[04:26:56] [Server thread/INFO]: .Taky4245 was shot by Skeleton
+[04:28:01] [Server thread/INFO]: MalaHierba6026 was shot by Skeleton
+[04:29:06] [Server thread/INFO]: Exalias has made the advancement [Stone Age]
+[04:29:45] [Server thread/INFO]: Exalias has made the advancement [Getting an Upgrade]
+[04:31:07] [Server thread/INFO]: .Taky4245 has made the advancement [Stone Age]
+[04:31:34] [Server thread/INFO]: .Taky4245 has made the advancement [Getting an Upgrade]
+[04:36:57] [Server thread/WARN]: MalaHierba6026 moved wrongly!
+[04:38:23] [Server thread/INFO]: .Taky4245 was slain by Zombie
+[04:39:26] [Server thread/INFO]: .Taky4245 has made the advancement [Monster Hunter]
+[04:40:28] [Server thread/INFO]: Made Exalias a server operator
+[04:41:17] [Server thread/INFO]: Exalias issued server command: /tp .Taky4245 Exalias
+[04:41:17] [Server thread/INFO]: [Exalias: Teleported .Taky4245 to Exalias]
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:17] [Server thread/WARN]: .Taky4245 moved too quickly! -161.60683403592006,-6.0,-125.34253426115856
+[04:41:49] [Server thread/INFO]: Exalias issued server command: /tp MalaHierba6026 Exalias
+[04:41:49] [Server thread/INFO]: [Exalias: Teleported MalaHierba6026 to Exalias]
+[04:41:49] [Server thread/WARN]: MalaHierba6026 moved too quickly! 48.31698630080849,-36.0,-19.66632641193309
+[04:41:49] [Server thread/WARN]: MalaHierba6026 moved too quickly! 48.31698630080849,-36.0,-19.66632641193309
+[04:41:49] [Server thread/WARN]: MalaHierba6026 moved too quickly! 48.31698630080849,-36.0,-19.66632641193309
+[04:41:49] [Server thread/WARN]: MalaHierba6026 moved too quickly! 48.31698630080849,-36.0,-19.66632641193309
+[04:41:49] [Server thread/WARN]: MalaHierba6026 moved too quickly! 48.31698630080849,-36.0,-19.66632641193309
+[04:41:49] [Server thread/WARN]: MalaHierba6026 moved too quickly! 48.31698630080849,-36.0,-19.66632641193309
+[04:42:31] [Server thread/INFO]: MalaHierba6026 has made the advancement [Stone Age]
+[04:42:46] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .Taky4245 disconnected
+[04:42:46] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Taky4245 has disconnected from the Java server because of Bedrock client timed out
+[04:42:46] [Server thread/INFO]: .Taky4245 lost connection: Disconnected
+[04:42:46] [Server thread/INFO]: .Taky4245 left the game
+[04:43:56] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Taky4245
+[04:43:56] [localSession-7-2/INFO]: [Geyser-Spigot] Taky4245 (logged in as: Taky4245) has connected to the Java server
+[04:43:57] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Taky4245 joined (UUID: 00000000-0000-0000-0009-01f9483d367f)
+[04:43:57] [Server thread/INFO]: .Taky4245 joined the game
+[04:43:57] [Server thread/INFO]: .Taky4245[/127.0.0.1:0] logged in with entity id 10911 at ([Moon_Cell]-44.258556, 135.0, -26.298826)
+[04:44:16] [Server thread/INFO]: MalaHierba6026 has made the advancement [Getting an Upgrade]
+[04:47:49] [Server thread/INFO]: Exalias was shot by Skeleton
+[04:48:02] [Server thread/WARN]: .Taky4245 moved wrongly!
+[04:48:13] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Taky4245 has disconnected from the Java server because of Bedrock client disconnected
+[04:48:13] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Taky4245 disconnected
+[04:48:13] [Server thread/INFO]: .Taky4245 lost connection: Disconnected
+[04:48:13] [Server thread/INFO]: .Taky4245 left the game
+[04:49:57] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Taky4245
+[04:49:57] [localSession-7-3/INFO]: [Geyser-Spigot] Taky4245 (logged in as: Taky4245) has connected to the Java server
+[04:49:57] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Taky4245 joined (UUID: 00000000-0000-0000-0009-01f9483d367f)
+[04:49:57] [Server thread/INFO]: .Taky4245 joined the game
+[04:49:57] [Server thread/INFO]: .Taky4245[/127.0.0.1:0] logged in with entity id 11790 at ([Moon_Cell]106.69949, 93.0, 58.681057)
+[04:54:08] [Server thread/INFO]: Exalias issued server command: /tp Exalias MalaHierba6026
+[04:54:08] [Server thread/INFO]: [Exalias: Teleported Exalias to MalaHierba6026]
+[04:54:20] [Server thread/INFO]: Exalias issued server command: /tp .Taky4245 Exalias
+[04:54:20] [Server thread/INFO]: [Exalias: Teleported .Taky4245 to Exalias]
+[04:54:20] [Server thread/WARN]: .Taky4245 moved too quickly! -77.8527374323314,3.0,-111.22491298279942
+[04:54:20] [Server thread/WARN]: .Taky4245 moved too quickly! -77.8527374323314,3.0,-111.22491298279942
+[04:54:20] [Server thread/WARN]: .Taky4245 moved too quickly! -77.8527374323314,3.0,-111.22491298279942
+[04:54:20] [Server thread/WARN]: .Taky4245 moved too quickly! -77.8527374323314,3.0,-111.22491298279942
+[04:54:20] [Server thread/WARN]: .Taky4245 moved too quickly! -77.8527374323314,3.0,-111.22491298279942
+[04:54:20] [Server thread/WARN]: .Taky4245 moved too quickly! -77.8527374323314,3.0,-111.22491298279942
+[04:54:20] [Server thread/WARN]: .Taky4245 moved too quickly! -77.8527374323314,3.0,-111.22491298279942
+[04:54:20] [Server thread/WARN]: .Taky4245 moved too quickly! -77.8527374323314,3.0,-111.22491298279942
+[04:54:20] [Server thread/WARN]: .Taky4245 moved too quickly! -77.8527374323314,3.0,-111.22491298279942
+[04:54:20] [Server thread/WARN]: .Taky4245 moved too quickly! -77.8527374323314,3.0,-111.22491298279942
+[04:54:20] [Server thread/WARN]: .Taky4245 moved too quickly! -77.8527374323314,3.0,-111.22491298279942
+[04:54:20] [Server thread/WARN]: .Taky4245 moved too quickly! -77.8527374323314,3.0,-111.22491298279942
+[04:54:20] [Server thread/WARN]: .Taky4245 moved too quickly! -77.8527374323314,3.0,-111.22491298279942
+[04:54:30] [Server thread/INFO]: Exalias has made the advancement [Acquire Hardware]
+[04:55:13] [Server thread/INFO]: .Taky4245 has made the advancement [Acquire Hardware]
+[04:57:25] [Server thread/INFO]: Exalias issued server command: /tp .Taky4245 Exalias
+[04:57:25] [Server thread/INFO]: [Exalias: Teleported .Taky4245 to Exalias]
+[04:57:25] [Server thread/WARN]: .Taky4245 moved too quickly! -23.96124847262857,29.0,-7.932649218227251
+[04:57:25] [Server thread/WARN]: .Taky4245 moved too quickly! -23.96124847262857,29.0,-7.932649218227251
+[04:58:12] [Server thread/INFO]: MalaHierba6026 has made the advancement [Acquire Hardware]
+[04:58:21] [Server thread/INFO]: Exalias has made the advancement [Sweet Dreams]
+[04:58:26] [Server thread/INFO]: .Taky4245 has made the advancement [Sweet Dreams]
+[04:58:51] [Server thread/INFO]: MalaHierba6026 has made the advancement [Isn't It Iron Pick]
+[04:59:05] [Server thread/INFO]: MalaHierba6026 has made the advancement [Sweet Dreams]
+[05:01:07] [Server thread/INFO]: Exalias has made the advancement [Isn't It Iron Pick]
+[05:01:09] [Server thread/INFO]: .Taky4245 has made the advancement [A Seedy Place]
+[05:02:46] [Server thread/INFO]: MalaHierba6026 was blown up by Creeper
+[05:05:47] [Server thread/INFO]: .Taky4245 was shot by Skeleton
+[05:06:09] [Server thread/INFO]: MalaHierba6026 hit the ground too hard
+[05:10:26] [Server thread/INFO]: Exalias lost connection: Disconnected
+[05:10:26] [Server thread/INFO]: Exalias left the game
+[05:12:47] [Server thread/INFO]: MalaHierba6026 has made the advancement [Voluntary Exile]
+[05:13:59] [User Authenticator #2/INFO]: UUID of player Exalias is cb6841b5-b095-3d3a-b557-b9d12b6b2bad
+[05:14:00] [Server thread/INFO]: Exalias joined the game
+[05:14:00] [Server thread/INFO]: Exalias[/127.176.63.111:41503] logged in with entity id 15166 at ([Moon_Cell]-28.905821185212, 90.0, 30.30000001192093)
+[05:15:46] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[05:15:46] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[05:22:59] [Server thread/WARN]: .Taky4245 moved wrongly!
+[05:25:50] [Server thread/INFO]: .Taky4245 has made the advancement [Suit Up]
+[05:38:35] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[05:38:35] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[05:40:36] [Server thread/INFO]: .Taky4245 was slain by Zombie
+[05:40:38] [Server thread/INFO]: Exalias has made the advancement [Suit Up]
+[05:41:21] [Server thread/INFO]: .Taky4245 was slain by Zombie
+[05:41:29] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[05:41:29] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[05:41:55] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[05:41:55] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[05:43:56] [Server thread/INFO]: .Taky4245 was blown up by Creeper
+[05:44:08] [Server thread/INFO]: Exalias issued server command: /tp .Taky4245 Exalias
+[05:44:08] [Server thread/INFO]: [Exalias: Teleported .Taky4245 to Exalias]
+[05:44:08] [Server thread/WARN]: .Taky4245 moved too quickly! 52.84752841113163,-42.0,28.01278334092917
+[05:44:08] [Server thread/WARN]: .Taky4245 moved too quickly! 52.84752841113163,-42.0,28.01278334092917
+[05:44:08] [Server thread/WARN]: .Taky4245 moved too quickly! 52.84752841113163,-42.0,28.01278334092917
+[05:44:08] [Server thread/WARN]: .Taky4245 moved too quickly! 52.84752841113163,-42.0,28.01278334092917
+[05:44:08] [Server thread/WARN]: .Taky4245 moved too quickly! 52.84752841113163,-42.0,28.01278334092917
+[05:44:08] [Server thread/WARN]: .Taky4245 moved too quickly! 52.84752841113163,-42.0,28.01278334092917
+[05:44:08] [Server thread/WARN]: .Taky4245 moved too quickly! 52.84752841113163,-42.0,28.01278334092917
+[05:45:34] [Server thread/INFO]: MalaHierba6026 was slain by Enderman
+[05:45:52] [Server thread/INFO]: .Taky4245 was slain by Enderman
+[05:47:29] [Server thread/INFO]: Exalias fell from a high place
+[05:47:36] [Server thread/INFO]: .Taky4245 was shot by Skeleton
+[05:48:14] [Server thread/WARN]: MalaHierba6026 moved wrongly!
+[05:48:39] [Server thread/INFO]: MalaHierba6026 was slain by .Taky4245
+[05:49:47] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[05:49:47] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[05:50:01] [Server thread/INFO]: .Taky4245 was slain by MalaHierba6026
+[05:50:05] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Taky4245 disconnected
+[05:50:05] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Taky4245 has disconnected from the Java server because of Bedrock client disconnected
+[05:50:05] [Server thread/INFO]: .Taky4245 lost connection: Disconnected
+[05:50:05] [Server thread/INFO]: .Taky4245 left the game
+[05:51:49] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Taky4245
+[05:51:49] [localSession-7-4/INFO]: [Geyser-Spigot] Taky4245 (logged in as: Taky4245) has connected to the Java server
+[05:51:49] [User Authenticator #3/INFO]: UUID of player Taky4245 is c95cec51-69ec-34f4-9b81-96349f1d916c
+[05:51:49] [Server thread/INFO]: Taky4245 joined the game
+[05:51:49] [Server thread/INFO]: Taky4245[/127.0.0.1:0] logged in with entity id 21031 at ([Moon_Cell]15.5, 140.0, 87.5)
+[05:52:10] [Server thread/INFO]: Exalias issued server command: /tp .Taky4245 Exalias
+[05:52:16] [Server thread/INFO]: Exalias issued server command: /tp .Taky4245 Exalias
+[05:52:35] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[05:52:59] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[05:53:32] [Server thread/INFO]: MalaHierba6026 was slain by Enderman
+[05:54:24] [Server thread/INFO]: Exalias issued server command: /tp 163 162 106
+[05:54:24] [Server thread/INFO]: [Exalias: Teleported Exalias to 163.500000, 162.000000, 106.500000]
+[05:54:50] [Server thread/INFO]: MalaHierba6026 was slain by Enderman
+[05:55:01] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[05:55:18] [Server thread/INFO]: Exalias issued server command: /tp Exalias MalaHierba6026
+[05:55:18] [Server thread/INFO]: [Exalias: Teleported Exalias to MalaHierba6026]
+[05:55:53] [Server thread/INFO]: MalaHierba6026 was slain by Enderman
+[05:57:14] [Server thread/INFO]: MalaHierba6026 was slain by Enderman
+[05:57:44] [Server thread/WARN]: MalaHierba6026 moved too quickly! 5.948922999999997,-6.231520000000003,5.256119000000002
+[05:59:12] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Taky4245 has disconnected from the Java server because of Bedrock client disconnected
+[05:59:12] [Server thread/INFO]: Taky4245 lost connection: Disconnected
+[05:59:12] [Server thread/INFO]: Taky4245 left the game
+[05:59:34] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Taky4245
+[05:59:34] [localSession-7-1/INFO]: [Geyser-Spigot] Taky4245 (logged in as: Taky4245) has connected to the Java server
+[05:59:35] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Taky4245 joined (UUID: 00000000-0000-0000-0009-01f9483d367f)
+[05:59:35] [Server thread/INFO]: .Taky4245 joined the game
+[05:59:35] [Server thread/INFO]: .Taky4245[/127.0.0.1:0] logged in with entity id 22621 at ([Moon_Cell]-31.69999, 122.0, -23.69999)
+[05:59:52] [Server thread/INFO]: MalaHierba6026 was slain by Zombie
+[06:00:26] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] MalaHierba6026 has disconnected from the Java server because of Bedrock client disconnected
+[06:00:26] [Server thread/INFO]: MalaHierba6026 lost connection: Disconnected
+[06:00:26] [Server thread/INFO]: MalaHierba6026 left the game
+[06:00:33] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[06:00:33] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[06:02:02] [Server thread/INFO]: Exalias fell from a high place
+[06:03:04] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username MalaHierba6026
+[06:03:04] [localSession-7-2/INFO]: [Geyser-Spigot] MalaHierba6026 (logged in as: MalaHierba6026) has connected to the Java server
+[06:03:04] [Server thread/INFO]: [floodgate] Floodgate player logged in as .MalaHierba6026 joined (UUID: 00000000-0000-0000-0009-01f2a7753d51)
+[06:03:04] [Server thread/INFO]: .MalaHierba6026 joined the game
+[06:03:04] [Server thread/INFO]: .MalaHierba6026[/127.0.0.1:0] logged in with entity id 23061 at ([Moon_Cell]63.89148, 96.0, 45.983753)
+[06:04:44] [Server thread/INFO]: Exalias lost connection: Disconnected
+[06:04:44] [Server thread/INFO]: Exalias left the game
+[06:04:47] [User Authenticator #4/INFO]: UUID of player Exalias is cb6841b5-b095-3d3a-b557-b9d12b6b2bad
+[06:04:48] [Server thread/INFO]: Exalias joined the game
+[06:04:48] [Server thread/INFO]: Exalias[/127.176.63.111:44383] logged in with entity id 23320 at ([Moon_Cell]-43.71560819914597, 135.0, -23.77931593266256)
+[06:06:18] [Server thread/INFO]: .MalaHierba6026 has made the advancement [Isn't It Iron Pick]
+[06:06:31] [Server thread/INFO]: .MalaHierba6026 has made the advancement [Suit Up]
+[06:07:06] [Server thread/INFO]: .Taky4245 was slain by .MalaHierba6026
+[06:07:41] [Server thread/INFO]: .MalaHierba6026 has made the advancement [Acquire Hardware]
+[06:09:51] [Server thread/INFO]: .MalaHierba6026 was slain by Exalias
+[06:10:23] [Server thread/INFO]: Exalias issued server command: /tp .MalaHierba6026 Exalias
+[06:10:23] [Server thread/INFO]: [Exalias: Teleported .MalaHierba6026 to Exalias]
+[06:10:23] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -63.560933452198974,15.975589999999997,-101.98007410838345
+[06:10:23] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -63.560933452198974,15.975589999999997,-101.98007410838345
+[06:10:23] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -63.560933452198974,15.975589999999997,-101.98007410838345
+[06:10:23] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -63.560933452198974,15.975589999999997,-101.98007410838345
+[06:10:23] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -63.560933452198974,15.975589999999997,-101.98007410838345
+[06:10:23] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -63.560933452198974,15.975589999999997,-101.98007410838345
+[06:10:23] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -63.560933452198974,15.975589999999997,-101.98007410838345
+[06:10:23] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -63.560933452198974,15.975589999999997,-101.98007410838345
+[06:10:23] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -63.560933452198974,15.975589999999997,-101.98007410838345
+[06:10:23] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -63.560933452198974,15.975589999999997,-101.98007410838345
+[06:10:23] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -63.560933452198974,15.975589999999997,-101.98007410838345
+[06:10:23] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -63.560933452198974,15.975589999999997,-101.98007410838345
+[06:16:02] [Server thread/INFO]: .MalaHierba6026 has made the advancement [Monster Hunter]
+[06:16:39] [Server thread/INFO]: Exalias issued server command: /tp .MalaHierba6026 Exalias
+[06:16:39] [Server thread/INFO]: [Exalias: Teleported .MalaHierba6026 to Exalias]
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:39] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -56.14234475410987,147.0,111.14880126734947
+[06:16:44] [Server thread/INFO]: Exalias issued server command: /tp .Taky4245 Exalias
+[06:16:44] [Server thread/INFO]: [Exalias: Teleported .Taky4245 to Exalias]
+[06:16:44] [Server thread/WARN]: .Taky4245 moved too quickly! -39.4230640515342,145.0,141.7239697813872
+[06:18:55] [Server thread/INFO]: .MalaHierba6026 has made the advancement [Sweet Dreams]
+[06:21:06] [Server thread/INFO]: Exalias issued server command: /tp .Taky4245 Exalias
+[06:21:06] [Server thread/INFO]: [Exalias: Teleported .Taky4245 to Exalias]
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:21:06] [Server thread/WARN]: .Taky4245 moved too quickly! -94.07696495520935,-157.40739,-56.16570848051051
+[06:22:00] [Server thread/INFO]: Exalias issued server command: /tp .MalaHierba6026 Exalias
+[06:22:00] [Server thread/INFO]: [Exalias: Teleported .MalaHierba6026 to Exalias]
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:22:00] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -84.08666927976645,-151.0,-85.917475699596
+[06:23:21] [Server thread/INFO]: .MalaHierba6026 has made the advancement [Best Friends Forever]
+[06:38:44] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .Taky4245 disconnected
+[06:38:44] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Taky4245 has disconnected from the Java server because of Bedrock client disconnected
+[06:38:44] [Server thread/INFO]: .Taky4245 lost connection: Disconnected
+[06:38:44] [Server thread/INFO]: .Taky4245 left the game
+[06:40:07] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Taky4245
+[06:40:07] [localSession-7-3/INFO]: [Geyser-Spigot] Taky4245 (logged in as: Taky4245) has connected to the Java server
+[06:40:07] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Taky4245 joined (UUID: 00000000-0000-0000-0009-01f9483d367f)
+[06:40:07] [Server thread/INFO]: .Taky4245 joined the game
+[06:40:07] [Server thread/INFO]: .Taky4245[/127.0.0.1:0] logged in with entity id 28201 at ([Moon_Cell]-352.7301, 95.0, -20.561384)
+[06:42:19] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Taky4245 has disconnected from the Java server because of Bedrock client disconnected
+[06:42:19] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Taky4245 disconnected
+[06:42:19] [Server thread/INFO]: .Taky4245 lost connection: Disconnected
+[06:42:19] [Server thread/INFO]: .Taky4245 left the game
+[06:45:58] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Taky4245
+[06:45:58] [localSession-7-4/INFO]: [Geyser-Spigot] Taky4245 (logged in as: Taky4245) has connected to the Java server
+[06:45:58] [User Authenticator #5/INFO]: UUID of player Taky4245 is c95cec51-69ec-34f4-9b81-96349f1d916c
+[06:45:58] [Server thread/INFO]: Taky4245 joined the game
+[06:45:58] [Server thread/INFO]: Taky4245[/127.0.0.1:0] logged in with entity id 28978 at ([Moon_Cell]1.342996, 158.0, 99.12367)
+[06:46:36] [Server thread/INFO]: Exalias issued server command: /tp .Taky4245 Exalias
+[06:46:57] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Taky4245 has disconnected from the Java server because of Bedrock client disconnected
+[06:46:57] [Server thread/INFO]: Taky4245 lost connection: Disconnected
+[06:46:57] [Server thread/INFO]: Taky4245 left the game
+[06:47:14] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Taky4245
+[06:47:14] [localSession-7-1/INFO]: [Geyser-Spigot] Taky4245 (logged in as: Taky4245) has connected to the Java server
+[06:47:14] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Taky4245 joined (UUID: 00000000-0000-0000-0009-01f9483d367f)
+[06:47:14] [Server thread/INFO]: .Taky4245 joined the game
+[06:47:14] [Server thread/INFO]: .Taky4245[/127.0.0.1:0] logged in with entity id 29302 at ([Moon_Cell]-352.1446, 96.0, -18.060766)
+[06:47:19] [Server thread/INFO]: Exalias issued server command: /tp .Taky4245 Exalias
+[06:47:19] [Server thread/INFO]: [Exalias: Teleported .Taky4245 to Exalias]
+[06:56:47] [Server thread/WARN]: .Taky4245 moved wrongly!
+[07:08:43] [Server thread/INFO]: Exalias has made the advancement [Voluntary Exile]
+[07:11:30] [Server thread/INFO]: Exalias issued server command: /tp .MalaHierba6026 Exalias
+[07:11:30] [Server thread/INFO]: [Exalias: Teleported .MalaHierba6026 to Exalias]
+[07:11:30] [Server thread/WARN]: .MalaHierba6026 moved too quickly! -10.11429356927107,0.0,-12.37862770627202
+[07:11:31] [Server thread/WARN]: .MalaHierba6026 moved too quickly! 10.11429356927107,0.0,12.37862770627202
+[07:11:46] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[07:11:46] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[07:12:46] [Server thread/INFO]: .Taky4245 fell from a high place
+[07:21:36] [Server thread/INFO]: .MalaHierba6026 was slain by Exalias
+[07:21:38] [Server thread/INFO]: .Taky4245 has made the advancement [Isn't It Iron Pick]
+[07:33:31] [Server thread/INFO]: .Taky4245 fell from a high place
+[07:36:26] [Server thread/INFO]: Exalias issued server command: /tp Exalias MalaHierba6026
+[07:36:41] [Server thread/INFO]: Exalias issued server command: /tp Exalias .MalaHierba6026
+[07:36:41] [Server thread/INFO]: [Exalias: Teleported Exalias to .MalaHierba6026]
+[07:37:15] [Async Chat Thread - #1/INFO]: [Not Secure] <Exalias> fap
+[07:37:17] [Async Chat Thread - #1/INFO]: [Not Secure] <Exalias> fap
+[07:37:18] [Async Chat Thread - #1/INFO]: [Not Secure] <Exalias> fap
+[07:37:19] [Async Chat Thread - #1/INFO]: [Not Secure] <Exalias> fap
+[07:37:20] [Async Chat Thread - #1/INFO]: [Not Secure] <Exalias> fap
+[07:37:21] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:22] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:23] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:24] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:25] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:26] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:27] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:29] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:30] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:43] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:44] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:45] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:46] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:46] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:47] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:37:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Exalias> fap
+[07:40:34] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Taky4245 has disconnected from the Java server because of Bedrock client disconnected
+[07:40:34] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .Taky4245 disconnected
+[07:40:34] [Server thread/INFO]: .Taky4245 lost connection: Disconnected
+[07:40:34] [Server thread/INFO]: .Taky4245 left the game
+[07:41:54] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Taky4245
+[07:41:54] [localSession-7-2/INFO]: [Geyser-Spigot] Taky4245 (logged in as: Taky4245) has connected to the Java server
+[07:41:54] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Taky4245 joined (UUID: 00000000-0000-0000-0009-01f9483d367f)
+[07:41:54] [Server thread/INFO]: .Taky4245 joined the game
+[07:41:54] [Server thread/INFO]: .Taky4245[/127.0.0.1:0] logged in with entity id 36109 at ([Moon_Cell]-345.42773, 95.0, -4.6236286)
+[07:45:39] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Taky4245 has disconnected from the Java server because of Bedrock client timed out
+[07:45:39] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Taky4245 disconnected
+[07:45:39] [Server thread/INFO]: .Taky4245 lost connection: Disconnected
+[07:45:39] [Server thread/INFO]: .Taky4245 left the game
+[07:48:47] [Server thread/INFO]: Exalias issued server command: /tp Exalias MalaHierba6026
+[07:48:49] [Server thread/INFO]: Exalias issued server command: /tp Exalias MalaHierba6026
+[07:49:00] [Server thread/INFO]: Exalias issued server command: /tp Exalias .MalaHierba6026
+[07:49:00] [Server thread/INFO]: [Exalias: Teleported Exalias to .MalaHierba6026]
+[07:49:21] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:22] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:23] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:24] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:24] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:25] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:26] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:26] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:27] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:28] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:28] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:29] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> afp
+[07:49:30] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> afp
+[07:49:32] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:33] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fa
+[07:49:34] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fa
+[07:49:34] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:35] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:36] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:37] [Async Chat Thread - #3/INFO]: [Not Secure] <Exalias> fap
+[07:49:47] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Taky4245
+[07:49:47] [localSession-7-3/INFO]: [Geyser-Spigot] Taky4245 (logged in as: Taky4245) has connected to the Java server
+[07:49:47] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Taky4245 joined (UUID: 00000000-0000-0000-0009-01f9483d367f)
+[07:49:47] [Server thread/INFO]: .Taky4245 joined the game
+[07:49:47] [Server thread/INFO]: .Taky4245[/127.0.0.1:0] logged in with entity id 38269 at ([Moon_Cell]-349.9163, 100.0, -24.189056)
+[07:51:09] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[07:51:09] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[07:51:30] [Server thread/WARN]: .Taky4245 moved wrongly!
+[07:51:35] [Server thread/WARN]: .MalaHierba6026 moved wrongly!
+[07:54:10] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[07:54:10] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[07:56:24] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[07:56:24] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[07:58:44] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[07:58:44] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[08:03:19] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[08:03:19] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[08:04:43] [Server thread/INFO]: Exalias has made the advancement [A Seedy Place]
+[08:05:12] [Server thread/INFO]: .Taky4245 hit the ground too hard
+[08:07:59] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[08:07:59] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[08:10:58] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .MalaHierba6026 disconnected
+[08:10:58] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] MalaHierba6026 has disconnected from the Java server because of Bedrock client disconnected
+[08:10:58] [Server thread/INFO]: .MalaHierba6026 lost connection: Disconnected
+[08:10:58] [Server thread/INFO]: .MalaHierba6026 left the game
+[08:17:09] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username MalaHierba6026
+[08:17:09] [localSession-7-4/INFO]: [Geyser-Spigot] MalaHierba6026 (logged in as: MalaHierba6026) has connected to the Java server
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: java.lang.NullPointerException
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at java.base/java.lang.invoke.DirectMethodHandle.checkBase(DirectMethodHandle.java:547)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at java.base/jdk.internal.reflect.MethodHandleObjectFieldAccessorImpl.get(MethodHandleObjectFieldAccessorImpl.java:57)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at java.base/java.lang.reflect.Field.get(Field.java:444)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.addon.data.SpigotDataHandler.checkAndHandleLogin(SpigotDataHandler.java:150)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.addon.data.SpigotDataHandler.channelRead(SpigotDataHandler.java:145)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.addon.data.CommonDataHandler.channelRead(CommonDataHandler.java:178)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:299)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.local.LocalChannel.finishPeerRead0(LocalChannel.java:445)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.local.LocalChannel.access$400(LocalChannel.java:50)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.local.LocalChannel$5.run(LocalChannel.java:403)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[08:17:09] [Geyser Spigot connection thread-6-1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[08:17:09] [localSession-7-4/INFO]: [Geyser-Spigot] MalaHierba6026 has disconnected from the Java server because of End of stream
+[08:17:09] [Server thread/INFO]: /127.0.0.1:0 lost connection: Disconnected
+[08:17:54] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username MalaHierba6026
+[08:17:54] [localSession-7-1/INFO]: [Geyser-Spigot] MalaHierba6026 (logged in as: MalaHierba6026) has connected to the Java server
+[08:17:54] [Server thread/INFO]: [floodgate] Floodgate player logged in as .MalaHierba6026 joined (UUID: 00000000-0000-0000-0009-01f2a7753d51)
+[08:17:54] [Server thread/INFO]: .MalaHierba6026 joined the game
+[08:17:54] [Server thread/INFO]: .MalaHierba6026[/127.0.0.1:0] logged in with entity id 43239 at ([Moon_Cell]-388.65784, 91.0, -38.28614)
+[08:19:22] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[08:19:22] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[08:22:54] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:22:54] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:22:55] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:22:56] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:22:56] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:22:57] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:22:58] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:22:58] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:22:59] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:23:00] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:23:00] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:23:05] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:23:05] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:23:06] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:23:07] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:23:07] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:23:08] [Async Chat Thread - #6/INFO]: [Not Secure] <Exalias> fap
+[08:23:09] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:23:10] [Async Chat Thread - #5/INFO]: [Not Secure] <Exalias> fap
+[08:23:10] [Async Chat Thread - #6/INFO]: [Not Secure] <Exalias> fap
+[08:23:12] [Async Chat Thread - #6/INFO]: [Not Secure] <Exalias> afp
+[08:23:26] [Async Chat Thread - #6/INFO]: [Not Secure] <Exalias> fap
+[08:23:27] [Async Chat Thread - #6/INFO]: [Not Secure] <Exalias> fap
+[08:23:27] [Async Chat Thread - #6/INFO]: [Not Secure] <Exalias> fap
+[08:23:28] [Async Chat Thread - #6/INFO]: [Not Secure] <Exalias> fap
+[08:23:29] [Async Chat Thread - #6/INFO]: [Not Secure] <Exalias> fap
+[08:23:30] [Async Chat Thread - #6/INFO]: [Not Secure] <Exalias> fap
+[08:24:10] [Server thread/INFO]: .MalaHierba6026 has made the advancement [Not Today, Thank You]
+[08:28:15] [Server thread/INFO]: .Taky4245 hit the ground too hard
+[08:30:11] [Server thread/INFO]: Villager Villager['Nitwit'/45547, uuid='a3f9653e-bfb1-496d-9e83-0ac14d1f4d4d', l='ServerLevel[Moon_Cell]', x=279.70, y=122.00, z=-364.50, cpos=[17, -23], tl=1840, v=true] died, message: 'Nitwit froze to death'
+[08:35:14] [Server thread/INFO]: Exalias issued server command: /tp Exalias .Taky4245
+[08:35:14] [Server thread/INFO]: [Exalias: Teleported Exalias to .Taky4245]
+[08:45:51] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .MalaHierba6026 disconnected
+[08:45:51] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] MalaHierba6026 has disconnected from the Java server because of Bedrock client disconnected
+[08:45:51] [Server thread/INFO]: .MalaHierba6026 lost connection: Disconnected
+[08:45:51] [Server thread/INFO]: .MalaHierba6026 left the game
+[08:46:24] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username MalaHierba6026
+[08:46:24] [localSession-7-2/INFO]: [Geyser-Spigot] MalaHierba6026 (logged in as: MalaHierba6026) has connected to the Java server
+[08:46:25] [Server thread/INFO]: [floodgate] Floodgate player logged in as .MalaHierba6026 joined (UUID: 00000000-0000-0000-0009-01f2a7753d51)
+[08:46:25] [Server thread/INFO]: .MalaHierba6026 joined the game
+[08:46:25] [Server thread/INFO]: .MalaHierba6026[/127.0.0.1:0] logged in with entity id 49707 at ([Moon_Cell]-337.26395, 95.0, -22.744297)
+[08:50:59] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Taky4245 has disconnected from the Java server because of Bedrock client timed out
+[08:50:59] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Taky4245 disconnected
+[08:50:59] [Server thread/INFO]: .Taky4245 lost connection: Disconnected
+[08:50:59] [Server thread/INFO]: .Taky4245 left the game
+[08:51:08] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .MalaHierba6026 disconnected
+[08:51:08] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] MalaHierba6026 has disconnected from the Java server because of Bedrock client disconnected
+[08:51:08] [Server thread/INFO]: .MalaHierba6026 lost connection: Disconnected
+[08:51:08] [Server thread/INFO]: .MalaHierba6026 left the game
+[08:51:14] [Server thread/INFO]: Exalias lost connection: Disconnected
+[08:51:14] [Server thread/INFO]: Exalias left the game
+[08:51:46] [Server thread/INFO]: Stopping the server
+[08:51:46] [Server thread/INFO]: Stopping server
+[08:51:46] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[08:51:46] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[08:51:46] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[08:51:46] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[08:51:46] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[08:51:46] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[08:51:46] [Server thread/INFO]: Saving players
+[08:51:46] [WebSocketConnectReadThread-87/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[08:51:46] [Server thread/INFO]: Saving worlds
+[08:51:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Moon_Cell]'/minecraft:overworld
+[08:51:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Moon_Cell'
+[08:51:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Moon_Cell'
+[08:51:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Moon_Cell'
+[08:51:46] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 66 entity chunks, 0 poi chunks in world 'Moon_Cell' in 0.03s
+[08:51:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Moon_Cell_nether]'/minecraft:the_nether
+[08:51:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Moon_Cell_nether'
+[08:51:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Moon_Cell_nether'
+[08:51:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Moon_Cell_nether'
+[08:51:47] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 0 entity chunks, 0 poi chunks in world 'Moon_Cell_nether' in 0.30s
+[08:51:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Moon_Cell_the_end]'/minecraft:the_end
+[08:51:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Moon_Cell_the_end'
+[08:51:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Moon_Cell_the_end'
+[08:51:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Moon_Cell_the_end'
+[08:51:47] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'Moon_Cell_the_end' in 0.20s
+[08:51:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (Moon_Cell): All chunks are saved
+[08:51:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:51:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:51:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
