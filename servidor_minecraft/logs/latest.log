@@ -62,3 +62,9 @@
 [22:38:29] [User Authenticator #0/INFO]: UUID of player Exalias is cb6841b5-b095-3d3a-b557-b9d12b6b2bad
 [22:38:32] [Server thread/INFO]: Exalias joined the game
 [22:38:32] [Server thread/INFO]: Exalias[/127.176.63.111:55761] logged in with entity id 12 at ([Moon_Cell]-342.0895831499213, 95.0, -10.156274442133888)
+[22:48:20] [Server thread/INFO]: Exalias lost connection: Disconnected
+[22:48:20] [Server thread/INFO]: Exalias left the game
+[22:49:10] [User Authenticator #1/INFO]: UUID of player Exalias is cb6841b5-b095-3d3a-b557-b9d12b6b2bad
+[22:49:11] [Server thread/INFO]: Exalias joined the game
+[22:49:11] [Server thread/INFO]: Exalias[/127.176.63.111:51337] logged in with entity id 1252 at ([Moon_Cell]-348.65958829409624, 95.875, -23.554473167692652)
+[22:53:40] [Server thread/INFO]: Exalias has made the advancement [Not Today, Thank You]
