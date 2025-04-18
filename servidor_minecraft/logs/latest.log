@@ -4,3 +4,38 @@
 [00:17:08] [Server thread/INFO]: [Exalias: Teleported Exalias to -348.500000, 95.000000, -23.500000]
 [00:17:24] [Server thread/INFO]: Exalias issued server command: /tp Exalias -539.5 158 -25.5
 [00:17:24] [Server thread/INFO]: [Exalias: Teleported Exalias to -539.500000, 158.000000, -25.500000]
+[00:23:38] [Server thread/INFO]: Exalias has made the advancement [We Need to Go Deeper]
+[00:24:20] [Server thread/INFO]: Exalias issued server command: /tp Exalias -348.5 95 -23.5
+[00:24:20] [Server thread/INFO]: [Exalias: Teleported Exalias to -348.500000, 95.000000, -23.500000]
+[00:24:24] [Server thread/INFO]: Exalias lost connection: Disconnected
+[00:24:24] [Server thread/INFO]: Exalias left the game
+[00:24:34] [Server thread/INFO]: Stopping the server
+[00:24:34] [Server thread/INFO]: Stopping server
+[00:24:34] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[00:24:34] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[00:24:34] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[00:24:34] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[00:24:34] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:24:34] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:24:34] [Server thread/INFO]: Saving players
+[00:24:34] [WebSocketConnectReadThread-180/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[00:24:34] [Server thread/INFO]: Saving worlds
+[00:24:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Moon_Cell]'/minecraft:overworld
+[00:24:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Moon_Cell'
+[00:24:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Moon_Cell'
+[00:24:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Moon_Cell'
+[00:24:34] [Server thread/INFO]: [ChunkHolderManager] Saved 24 block chunks, 43 entity chunks, 0 poi chunks in world 'Moon_Cell' in 0.16s
+[00:24:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Moon_Cell_nether]'/minecraft:the_nether
+[00:24:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Moon_Cell_nether'
+[00:24:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Moon_Cell_nether'
+[00:24:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Moon_Cell_nether'
+[00:24:35] [Server thread/INFO]: [ChunkHolderManager] Saved 831 block chunks, 533 entity chunks, 1 poi chunks in world 'Moon_Cell_nether' in 0.67s
+[00:24:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Moon_Cell_the_end]'/minecraft:the_end
+[00:24:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Moon_Cell_the_end'
+[00:24:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Moon_Cell_the_end'
+[00:24:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Moon_Cell_the_end'
+[00:24:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'Moon_Cell_the_end' in 0.00s
+[00:24:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (Moon_Cell): All chunks are saved
+[00:24:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:24:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:24:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
