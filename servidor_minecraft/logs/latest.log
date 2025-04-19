@@ -62,3 +62,7 @@
 [00:26:29] [User Authenticator #0/INFO]: UUID of player Exalias is cb6841b5-b095-3d3a-b557-b9d12b6b2bad
 [00:26:31] [Server thread/INFO]: Exalias joined the game
 [00:26:31] [Server thread/INFO]: Exalias[/127.176.63.111:46085] logged in with entity id 49 at ([Moon_Cell]-351.2973901426321, 95.0, -25.01928092248777)
+[00:43:31] [Server thread/INFO]: Exalias has made the advancement [Take Aim]
+[00:45:08] [Server thread/INFO]: Exalias fell from a high place
+[00:45:16] [Server thread/INFO]: Exalias issued server command: /tp Exalias -1117.5 74 -166.5
+[00:45:16] [Server thread/INFO]: [Exalias: Teleported Exalias to -1117.500000, 74.000000, -166.500000]
