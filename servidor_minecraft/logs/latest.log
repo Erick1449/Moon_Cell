@@ -66,3 +66,7 @@
 [00:45:08] [Server thread/INFO]: Exalias fell from a high place
 [00:45:16] [Server thread/INFO]: Exalias issued server command: /tp Exalias -1117.5 74 -166.5
 [00:45:16] [Server thread/INFO]: [Exalias: Teleported Exalias to -1117.500000, 74.000000, -166.500000]
+[01:01:40] [Server thread/INFO]: Exalias issued server command: /tp Exalias -348.5 95 -23.5
+[01:01:40] [Server thread/INFO]: [Exalias: Teleported Exalias to -348.500000, 95.000000, -23.500000]
+[01:02:20] [Server thread/INFO]: Exalias lost connection: Disconnected
+[01:02:20] [Server thread/INFO]: Exalias left the game

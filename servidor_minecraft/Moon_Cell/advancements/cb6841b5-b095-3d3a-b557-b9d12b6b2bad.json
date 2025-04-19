@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-04-17 03:27:19 +0000",
+      "minecraft:beach": "2025-04-19 00:59:53 +0000",
       "minecraft:old_growth_pine_taiga": "2025-04-17 08:33:24 +0000",
       "minecraft:forest": "2025-04-17 06:25:48 +0000",
       "minecraft:taiga": "2025-04-17 08:32:45 +0000",
@@ -15,6 +16,7 @@
       "minecraft:snowy_plains": "2025-04-19 00:41:01 +0000",
       "minecraft:dripstone_caves": "2025-04-17 03:53:14 +0000",
       "minecraft:frozen_peaks": "2025-04-17 03:50:27 +0000",
+      "minecraft:frozen_river": "2025-04-19 00:59:28 +0000",
       "minecraft:deep_dark": "2025-04-17 23:28:07 +0000",
       "minecraft:cherry_grove": "2025-04-17 03:26:46 +0000",
       "minecraft:grove": "2025-04-18 00:11:08 +0000",
@@ -1891,6 +1893,24 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2025-04-18 00:23:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2025-04-19 00:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2025-04-19 00:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2025-04-19 00:57:41 +0000"
     },
     "done": true
   },
